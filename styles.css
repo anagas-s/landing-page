@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.char img {
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    padding: 0;
+    font-size: 24px;
+}
+
+body,.main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex: 1;
+    /* justify-content: space-between; */
+    
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+    background-color: #1F2937;
+    padding: 20px 40px 40px 80px;
+    height: 400px;
+    color: white;
+    min-width: 380px;
+
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.para p{
+    line-height: 1.5rem;
+}
+
+.hero{
+    background-color: #1F2937;
+}
+
+.best{
+    flex-basis: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    
+}
+li a {
+    text-decoration: none;
+}
+
+button {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    
+}
+.dialogue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+.text {
+    text-align: center;
+    
+}
+.quo {
+    text-align: center;
+    background-color: #E5E7EB;
+    height: 200px;
+
+    
+}
+
+.quo .quote {
+    font-size: 36px;
+    font-weight:lighter;
+    color: #1F2937;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.quo p{
+    font-size: larger;
+    font-weight: 900;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    background-color: #3882F6;
+    width: 50%;
+    align-self: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px 0 50px 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #1F2937;
+    color: white;
+    font-weight: 800;
+    
+}
+
+
+/* Individual items */
+
+.heading {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.char img {
+    border: black solid 8px;
+    border-radius: 10px;
+    
+}
+.char .text {
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: center;
+}
+
+.action h2 {
+    color: white;
+}
+.action p {
+    color: white;
+    font-weight: lighter;
+    padding: 5px;
+}
+.action .button {
+    border-color: white;
+}
+
+a:link , a:visited{
+    text-decoration: none;
+    color:white;
+}
