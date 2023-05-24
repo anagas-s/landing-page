@@ -98,7 +98,7 @@ button {
 .dialogue {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 60px;
 
 }
@@ -168,6 +168,9 @@ button {
 .char .text {
     text-transform: capitalize;
     font-style: italic;
+    /* text-align: center; */
+}
+.char {
     text-align: center;
 }
 
@@ -181,6 +184,7 @@ button {
 }
 .action .button {
     border-color: white;
+    align-self: center;
 }
 
 a:link , a:visited{
